@@ -1,0 +1,86 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about {
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 24px;
+}
+
+.Avatar {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 10px 10px 30px;
+}
+
+.block {
+ background-image: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0.7)), url('https://images.unsplash.com/photo-1623150502742-6a849aa94be4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: right;
+ min-height: 100vh;
+ padding: 128px;
+ margin-bottom: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .block{padding: 48px;}
+    
+}
+
+.button {
+    background-color: gray;
+    color: white;
+    padding: 16px 24px;
+    text-decoration:none;
+    border-radius: 16px;
+}
+
+.Contact {
+    margin-bottom: 48px;
+}
+
+.Contact-item {
+    margin-bottom: 4px;
+}
+
+.contact-icon {
+    margin-right: 12px;
+    width: 16px;
+}
+
+.content {
+    max-width:600px ;
+}
+
+
+.job {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+}
+
+.name {
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .name{padding: 36px;}
+      
+}
+  
+
+.paragraph01 {
+    margin-bottom: 16px;
+}
+
+.paragraph02 {
+    margin-bottom: 16px;
+}
+
